@@ -1,0 +1,202 @@
+Script started on 2024-11-15 13:13:56-05:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="75" LINES="48"]
+mayeni@cisc361:~/cisc361-project-5$ make qemu-nox
+qemu-system-i386 -nographic -drive file=fs.img,index=1,media=disk,format=raw -drive file=xv6.img,index=0,media=disk,format=raw -smp 2 -m 512 
+c[?7l[2J[0mSeaBIOS (version 1.13.0-1ubuntu1.1)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+1FF8CA10+1FECCA10 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from Hard Disk..xv6...
+cpu1: starting 1
+cpu0: starting 0
+process [initcode:1:Q2:10ms remaining:0ms idle] is running
+process [initcode:1:Q1:30ms remaining:0ms idle] is running
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+process [initcode:1:Q0:70ms remaining:0ms idle] is running
+process [initcode:1:Q0:60ms remaining:0ms idle] is running
+process [initcode:1:Q0:70ms remaining:0ms idle] is running
+process [initcode:1:Q0:70ms remaining:0ms idle] is running
+process [initcode:1:Q0:60ms remaining:0ms idle] is running
+process [initcode:1:Q0:70ms remaining:0ms idle] is running
+process [initcode:1:Q0:70ms remaining:0ms idle] is running
+process [initcode:1:Q0:70ms remaining:0ms idle] is running
+process [initcode:1:Q0:60ms remaining:0ms idle] is running
+process [initcode:1:Q0:50ms remaining:0ms idle] is running
+process [initcode:1:Q0:40ms remaining:0ms idle] is running
+process [initcode:1:Q0:70ms remaining:0ms idle] is running
+process [initcode:1:Q0:60ms remaining:0ms idle] is running
+process [initcode:1:Q0:50ms remaining:0ms idle] is running
+process [initcode:1:Q0:40ms remaining:0ms idle] is running
+process [initcode:1:Q0:30ms remaining:0ms idle] is running
+process [initcode:1:Q0:20ms remaining:0ms idle] is running
+process [initcode:1:Q0:70ms remaining:0ms idle] is running
+process [initcode:1:Q0:70ms remaining:0ms idle] is running
+process [initcode:1:Q0:60ms remaining:0ms idle] is running
+process [initcode:1:Q0:70ms remaining:0ms idle] is running
+process [initcode:1:Q0:60ms remaining:0ms idle] is running
+process [initcode:1:Q0:50ms remaining:0ms idle] is running
+process [initcode:1:Q0:40ms remaining:0ms idle] is running
+process [initcode:1:Q0:70ms remaining:0ms idle] is running
+process [initcode:1:Q0:70ms remaining:0ms idle] is running
+process [initcode:1:Q0:60ms remaining:0ms idle] is running
+process [initcode:1:Q0:50ms remaining:0ms idle] is running
+process [initcode:1:Q0:40ms remaining:0ms idle] is running
+process [initcode:1:Q0:30ms remaining:0ms idle] is running
+process [initcode:1:Q0:20ms remaining:0ms idle] is running
+process [initcode:1:Q0:10ms remaining:0ms idle] is running
+process [initcode:1:Q0:0ms remaining:0ms idle] is running
+process [initcode:1:Q1:30ms remaining:0ms idle] is running
+process [initcode:1:Q1:20ms remaining:0ms idle] is running
+process [initcode:1:Q1:10ms remaining:0ms idle] is running
+process [initcode:1:Q1:0ms remaining:0ms idle] is running
+process [initcode:1:Q2:10ms remaining:0ms idle] is running
+process [initcode:1:Q2:0ms remaining:0ms idle] is running
+process [initcode:1:Q3:0ms remaining:0ms idle] is running
+process [initcode:1:Q3:0ms remaining:0ms idle] is running
+process [initcode:1:Q3:0ms remaining:0ms idle] is running
+process [initcode:1:Q2:10ms remaining:0ms idle] is running
+process [initcode:1:Q0:70ms remaining:0ms idle] is running
+process [initcode:1:Q0:70ms remaining:0ms idle] is running
+process [initcode:1:Q0:60ms remaining:0ms idle] is running
+process [initcode:1:Q0:50ms remaining:0ms idle] is running
+process [initcode:1:Q0:40ms remaining:0ms idle] is running
+process [initcode:1:Q0:30ms remaining:0ms idle] is running
+process [initcode:1:Q0:20ms remaining:0ms idle] is running
+process [initcode:1:Q0:10ms remaining:0ms idle] is running
+process [initcode:1:Q0:0ms remaining:0ms idle] is running
+process [initcode:1:Q1:30ms remaining:0ms idle] is running
+process [initcode:1:Q1:20ms remaining:0ms idle] is running
+process [initcode:1:Q1:10ms remaining:0ms idle] is running
+process [initcode:1:Q1:0ms remaining:0ms idle] is running
+process [initcode:1:Q2:10ms remaining:0ms idle] is running
+process [initcode:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:60ms remaining:0ms idle] is running
+process [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:60ms remaining:0ms idle] is running
+iprocess [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:60ms remaining:0ms idle] is running
+process [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:60ms remaining:0ms idle] is running
+process [init:1:Q0:50ms remaining:0ms idle] is running
+nitprocess [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:60ms remaining:0ms idle] is running
+process [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:60ms remaining:0ms idle] is running
+process [init:1:Q0:50ms remaining:0ms idle] is running
+process [init:1:Q0:40ms remaining:0ms idle] is running
+:process [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:60ms remaining:0ms idle] is running
+process [init:1:Q0:50ms remaining:0ms idle] is running
+process [init:1:Q0:40ms remaining:0ms idle] is running
+process [init:1:Q0:30ms remaining:0ms idle] is running
+process [init:1:Q0:20ms remaining:0ms idle] is running
+ process [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:60ms remaining:0ms idle] is running
+process [init:1:Q0:50ms remaining:0ms idle] is running
+process [init:1:Q0:40ms remaining:0ms idle] is running
+process [init:1:Q0:30ms remaining:0ms idle] is running
+process [init:1:Q0:20ms remaining:0ms idle] is running
+stprocess [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:60ms remaining:0ms idle] is running
+process [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:60ms remaining:0ms idle] is running
+aprocess [init:1:Q0:70ms remaining:0ms idle] is running
+rprocess [init:1:Q0:60ms remaining:0ms idle] is running
+tingprocess [init:1:Q0:50ms remaining:0ms idle] is running
+process [init:1:Q0:40ms remaining:0ms idle] is running
+ sh
+process [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:60ms remaining:0ms idle] is running
+process [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:60ms remaining:0ms idle] is running
+process [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:60ms remaining:0ms idle] is running
+process [init:1:Q0:50ms remaining:0ms idle] is running
+process [init:1:Q0:40ms remaining:0ms idle] is running
+process [init:1:Q0:30ms remaining:0ms idle] is running
+process [init:1:Q0:70ms remaining:0ms idle] is running
+process [init:1:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q2:10ms remaining:0ms idle] is running
+process [init:2:Q2:0ms remaining:0ms idle] is running
+process [init:2:Q1:30ms remaining:0ms idle] is running
+process [init:2:Q1:20ms remaining:0ms idle] is running
+process [init:2:Q1:10ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q0:50ms remaining:0ms idle] is running
+process [init:2:Q0:40ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q0:50ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q0:50ms remaining:0ms idle] is running
+process [init:2:Q0:40ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q0:50ms remaining:0ms idle] is running
+process [init:2:Q0:40ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q0:50ms remaining:0ms idle] is running
+process [init:2:Q0:40ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q0:50ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q0:50ms remaining:0ms idle] is running
+process [init:2:Q0:40ms remaining:0ms idle] is running
+process [init:2:Q0:30ms remaining:0ms idle] is running
+process [init:2:Q0:20ms remaining:0ms idle] is running
+process [init:2:Q0:10ms remaining:0ms idle] is running
+process [init:2:Q0:0ms remaining:0ms idle] is running
+process [init:2:Q1:30ms remaining:0ms idle] is running
+process [init:2:Q1:20ms remaining:0ms idle] is running
+process [init:2:Q1:10ms remaining:0ms idle] is running
+process [init:2:Q1:0ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q0:50ms remaining:0ms idle] is running
+process [init:2:Q0:40ms remaining:0ms idle] is running
+process [init:2:Q0:30ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:70ms remaining:0ms idle] is running
+process [init:2:Q0:60ms remaining:0ms idle] is running
+process [init:2:Q0:50ms remaining:0ms idle] is running
+process [init:2:Q0:40ms remaining:0ms idle] is running
+process [init:2:Q0:30ms remaining:0ms idle] is running
+process [sh:2:Q0:70ms remaining:0ms idle] is running
+$process [sh:2:Q0:70ms remaining:0ms idle] is running
+process [sh:2:Q0:60ms remaining:0ms idle] is running
+ process [sh:2:Q0:70ms remaining:0ms idle] is running
+QEMU: Terminated
+mayeni@cisc361:~/cisc361-project-5$ exit
+exit
+
+Script done on 2024-11-15 13:14:40-05:00 [COMMAND_EXIT_CODE="0"]
